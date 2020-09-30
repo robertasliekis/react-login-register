@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/react-login-register/static/css/main.07bc1b9f.chunk.css",
-    "main.js": "/react-login-register/static/js/main.2e32a364.chunk.js",
-    "main.js.map": "/react-login-register/static/js/main.2e32a364.chunk.js.map",
+    "main.css": "/react-login-register/static/css/main.e628a6bb.chunk.css",
+    "main.js": "/react-login-register/static/js/main.be7b203e.chunk.js",
+    "main.js.map": "/react-login-register/static/js/main.be7b203e.chunk.js.map",
     "runtime-main.js": "/react-login-register/static/js/runtime-main.af93f4b8.js",
     "runtime-main.js.map": "/react-login-register/static/js/runtime-main.af93f4b8.js.map",
     "static/js/2.d653fdbd.chunk.js": "/react-login-register/static/js/2.d653fdbd.chunk.js",
     "static/js/2.d653fdbd.chunk.js.map": "/react-login-register/static/js/2.d653fdbd.chunk.js.map",
     "index.html": "/react-login-register/index.html",
-    "precache-manifest.3b6a300c972595194cd8edea8118e3c0.js": "/react-login-register/precache-manifest.3b6a300c972595194cd8edea8118e3c0.js",
+    "precache-manifest.57e6110d57fe626e51df1a688b4a1b0c.js": "/react-login-register/precache-manifest.57e6110d57fe626e51df1a688b4a1b0c.js",
     "service-worker.js": "/react-login-register/service-worker.js",
-    "static/css/main.07bc1b9f.chunk.css.map": "/react-login-register/static/css/main.07bc1b9f.chunk.css.map",
+    "static/css/main.e628a6bb.chunk.css.map": "/react-login-register/static/css/main.e628a6bb.chunk.css.map",
     "static/js/2.d653fdbd.chunk.js.LICENSE.txt": "/react-login-register/static/js/2.d653fdbd.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.af93f4b8.js",
     "static/js/2.d653fdbd.chunk.js",
-    "static/css/main.07bc1b9f.chunk.css",
-    "static/js/main.2e32a364.chunk.js"
+    "static/css/main.e628a6bb.chunk.css",
+    "static/js/main.be7b203e.chunk.js"
   ]
 }
