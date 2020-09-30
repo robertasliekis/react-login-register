@@ -64,7 +64,7 @@ export class Header extends Component {
             >
               Edit User
             </Link>
-            <Link className={"btn btn-about " + buttonClass} to="/about">
+            <Link className={"btn btn-about " + buttonClass} to="/react-login-register/about">
               About
             </Link>
             <Link
