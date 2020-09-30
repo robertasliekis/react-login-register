@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "//robertasliekis.github.io/react-login-register/static/css/main.44ae84d1.chunk.css",
-    "main.js": "//robertasliekis.github.io/react-login-register/static/js/main.df33a4a0.chunk.js",
-    "main.js.map": "//robertasliekis.github.io/react-login-register/static/js/main.df33a4a0.chunk.js.map",
-    "runtime-main.js": "//robertasliekis.github.io/react-login-register/static/js/runtime-main.065fe9b2.js",
-    "runtime-main.js.map": "//robertasliekis.github.io/react-login-register/static/js/runtime-main.065fe9b2.js.map",
-    "static/js/2.d653fdbd.chunk.js": "//robertasliekis.github.io/react-login-register/static/js/2.d653fdbd.chunk.js",
-    "static/js/2.d653fdbd.chunk.js.map": "//robertasliekis.github.io/react-login-register/static/js/2.d653fdbd.chunk.js.map",
-    "index.html": "//robertasliekis.github.io/react-login-register/index.html",
-    "precache-manifest.49e95b392d11eb4870da4a8577f3f990.js": "//robertasliekis.github.io/react-login-register/precache-manifest.49e95b392d11eb4870da4a8577f3f990.js",
-    "service-worker.js": "//robertasliekis.github.io/react-login-register/service-worker.js",
-    "static/css/main.44ae84d1.chunk.css.map": "//robertasliekis.github.io/react-login-register/static/css/main.44ae84d1.chunk.css.map",
-    "static/js/2.d653fdbd.chunk.js.LICENSE.txt": "//robertasliekis.github.io/react-login-register/static/js/2.d653fdbd.chunk.js.LICENSE.txt"
+    "main.css": "/react-login-register/static/css/main.44ae84d1.chunk.css",
+    "main.js": "/react-login-register/static/js/main.d2522160.chunk.js",
+    "main.js.map": "/react-login-register/static/js/main.d2522160.chunk.js.map",
+    "runtime-main.js": "/react-login-register/static/js/runtime-main.af93f4b8.js",
+    "runtime-main.js.map": "/react-login-register/static/js/runtime-main.af93f4b8.js.map",
+    "static/js/2.d653fdbd.chunk.js": "/react-login-register/static/js/2.d653fdbd.chunk.js",
+    "static/js/2.d653fdbd.chunk.js.map": "/react-login-register/static/js/2.d653fdbd.chunk.js.map",
+    "index.html": "/react-login-register/index.html",
+    "precache-manifest.cbc57d5a8372d9436dc8dbd4fad20cd9.js": "/react-login-register/precache-manifest.cbc57d5a8372d9436dc8dbd4fad20cd9.js",
+    "service-worker.js": "/react-login-register/service-worker.js",
+    "static/css/main.44ae84d1.chunk.css.map": "/react-login-register/static/css/main.44ae84d1.chunk.css.map",
+    "static/js/2.d653fdbd.chunk.js.LICENSE.txt": "/react-login-register/static/js/2.d653fdbd.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.065fe9b2.js",
+    "static/js/runtime-main.af93f4b8.js",
     "static/js/2.d653fdbd.chunk.js",
     "static/css/main.44ae84d1.chunk.css",
-    "static/js/main.df33a4a0.chunk.js"
+    "static/js/main.d2522160.chunk.js"
   ]
 }
