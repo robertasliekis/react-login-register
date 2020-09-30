@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "//robertasliekis.github.io/react-login-register/static/css/main.44ae84d1.chunk.css",
-    "main.js": "//robertasliekis.github.io/react-login-register/static/js/main.d7903159.chunk.js",
-    "main.js.map": "//robertasliekis.github.io/react-login-register/static/js/main.d7903159.chunk.js.map",
+    "main.js": "//robertasliekis.github.io/react-login-register/static/js/main.df33a4a0.chunk.js",
+    "main.js.map": "//robertasliekis.github.io/react-login-register/static/js/main.df33a4a0.chunk.js.map",
     "runtime-main.js": "//robertasliekis.github.io/react-login-register/static/js/runtime-main.065fe9b2.js",
     "runtime-main.js.map": "//robertasliekis.github.io/react-login-register/static/js/runtime-main.065fe9b2.js.map",
     "static/js/2.d653fdbd.chunk.js": "//robertasliekis.github.io/react-login-register/static/js/2.d653fdbd.chunk.js",
     "static/js/2.d653fdbd.chunk.js.map": "//robertasliekis.github.io/react-login-register/static/js/2.d653fdbd.chunk.js.map",
     "index.html": "//robertasliekis.github.io/react-login-register/index.html",
-    "precache-manifest.08b9baa369e609e17c6743ef14e4201c.js": "//robertasliekis.github.io/react-login-register/precache-manifest.08b9baa369e609e17c6743ef14e4201c.js",
+    "precache-manifest.49e95b392d11eb4870da4a8577f3f990.js": "//robertasliekis.github.io/react-login-register/precache-manifest.49e95b392d11eb4870da4a8577f3f990.js",
     "service-worker.js": "//robertasliekis.github.io/react-login-register/service-worker.js",
     "static/css/main.44ae84d1.chunk.css.map": "//robertasliekis.github.io/react-login-register/static/css/main.44ae84d1.chunk.css.map",
     "static/js/2.d653fdbd.chunk.js.LICENSE.txt": "//robertasliekis.github.io/react-login-register/static/js/2.d653fdbd.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.065fe9b2.js",
     "static/js/2.d653fdbd.chunk.js",
     "static/css/main.44ae84d1.chunk.css",
-    "static/js/main.d7903159.chunk.js"
+    "static/js/main.df33a4a0.chunk.js"
   ]
 }
