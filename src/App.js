@@ -22,11 +22,11 @@ class App extends React.Component {
             <Header />
             <div className="main-content">
               <Switch>
-                <Route exact path="/" component={Login} />
-                <Route path="/register" component={Register} />
-                <Route path="/user" component={UserInfo} />
-                <Route path="/edit" component={EditUserInfo} />
-                <Route path="/about" component={About} />
+                <Route exact path="/react-login-register/" component={Login} />
+                <Route path="/react-login-register/register" component={Register} />
+                <Route path="/react-login-register/user" component={UserInfo} />
+                <Route path="/react-login-register/edit" component={EditUserInfo} />
+                <Route path="/react-login-register/about" component={About} />
                 <Route path="*" component={WrongPage} />
               </Switch>
             </div>

@@ -38,28 +38,28 @@ export class Header extends Component {
           <div className="menu-buttons">
             <Link
               className="btn btn-login"
-              to="/"
+              to="/react-login-register/"
               style={{ display: this.props.loginStatus ? "none" : "flex" }}
             >
               Login
             </Link>
             <Link
               className="btn btn-register"
-              to="/register"
+              to="/react-login-register/register"
               style={{ display: this.props.loginStatus ? "none" : "flex" }}
             >
               Register
             </Link>
             <Link
               className="btn btn-user"
-              to="/user"
+              to="/react-login-register/user"
               style={{ display: this.props.loginStatus ? "flex" : "none" }}
             >
               User Info
             </Link>
             <Link
               className="btn btn-user-edit"
-              to="/edit"
+              to="/react-login-register/edit"
               style={{ display: this.props.loginStatus ? "flex" : "none" }}
             >
               Edit User
@@ -69,7 +69,7 @@ export class Header extends Component {
             </Link>
             <Link
               className="btn btn-logout"
-              to="/"
+              to="/react-login-register/"
               style={{ display: this.props.loginStatus ? "flex" : "none" }}
               onClick={() => this.props.isLoggedIn()}
             >
@@ -93,7 +93,7 @@ export class Header extends Component {
             <Link
               className="btn btn-login"
               onClick={this.handleClickBurger}
-              to="/"
+              to="/react-login-register/"
               style={{ display: this.props.loginStatus ? "none" : "flex" }}
             >
               Login
@@ -101,7 +101,7 @@ export class Header extends Component {
             <Link
               className="btn btn-register"
               onClick={this.handleClickBurger}
-              to="/register"
+              to="/react-login-register/register"
               style={{ display: this.props.loginStatus ? "none" : "flex" }}
             >
               Register
@@ -109,7 +109,7 @@ export class Header extends Component {
             <Link
               className="btn btn-user"
               onClick={this.handleClickBurger}
-              to="/user"
+              to="/react-login-register/user"
               style={{ display: this.props.loginStatus ? "flex" : "none" }}
             >
               User Info
@@ -117,7 +117,7 @@ export class Header extends Component {
             <Link
               className="btn btn-user-edit"
               onClick={this.handleClickBurger}
-              to="/edit"
+              to="/react-login-register/edit"
               style={{ display: this.props.loginStatus ? "flex" : "none" }}
             >
               Edit User
@@ -125,14 +125,14 @@ export class Header extends Component {
             <Link
               className={"btn btn-about " + buttonClass}
               onClick={this.handleClickBurger}
-              to="/about"
+              to="/react-login-register/about"
             >
               About
             </Link>
             <Link
               className="btn btn-logout"
               onClick={this.handleClickBurger}
-              to="/"
+              to="/react-login-register/"
               style={{ display: this.props.loginStatus ? "flex" : "none" }}
               onClick={() => this.props.isLoggedIn()}
             >
