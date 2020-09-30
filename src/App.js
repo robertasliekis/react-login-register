@@ -13,8 +13,12 @@ import WrongPage from "./components/WrongPage";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
+// "homepage": "https://robertasliekis.github.io/react-login-register/",
+
 class App extends React.Component {
   render() {
+    const websiteName = "/react-login-register";
+    // const websiteName = "";
     return (
       <Router>
         <div className="App">
@@ -22,11 +26,11 @@ class App extends React.Component {
             <Header />
             <div className="main-content">
               <Switch>
-                <Route exact path="/react-login-register/" component={Login} />
-                <Route path="/react-login-register/register" component={Register} />
-                <Route path="/react-login-register/user" component={UserInfo} />
-                <Route path="/react-login-register/edit" component={EditUserInfo} />
-                <Route path="/react-login-register/about" component={About} />
+                <Route exact path={websiteName + "/"} component={Login} />
+                <Route path={websiteName + "/register"} component={Register} />
+                <Route path={websiteName + "/user"} component={UserInfo} />
+                <Route path={websiteName + "/edit"} component={EditUserInfo} />
+                <Route path={websiteName + "/about"} component={About} />
                 <Route path="*" component={WrongPage} />
               </Switch>
             </div>

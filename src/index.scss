@@ -55,7 +55,7 @@ body {
 }
 
 .main-content {
-  //padding-top: 4rem;
+  padding-top: 4rem;
   height: calc(100vh - 4rem);
   @include dislapyFlexColumn();
 }
@@ -231,6 +231,17 @@ body {
 }
 
 @media only screen and (max-width: 420px) {
+  .website-wrapper {
+    height: calc(100vh - 4rem);
+    //  background: red;
+  }
+
+  .main-content {
+    padding: 0 1rem;
+    height: 100%;
+    margin-top: 4rem;
+  }
+
   .navbar {
     height: 4rem;
     padding: 0rem 1rem;
@@ -266,12 +277,6 @@ body {
         font-size: 2rem;
       }
     }
-  }
-
-  .main-content {
-    padding: 0 1rem;
-    //  padding-top: 4rem;
-    margin-top: 4rem;
   }
 
   .form-container {

@@ -16,18 +16,20 @@ function Login({ users, isLoggedIn, userId, setActiveUser, loginStatus, onChange
 
   const history = useHistory();
 
+  const websiteName = "/react-login-register";
+  //const websiteName = "";
+
   const onSubmit = (data) => {
     Object.values(users).forEach((user, index) => {
       if (user.email === data.email && user.password === data.password) {
         userExist = true;
-        //    setUserId(index);
         setActiveUser(user);
         isLoggedIn();
       }
     });
     if (userExist) {
       setIncorrectLogin(false);
-      history.push("/react-login-register/user");
+      history.push(websiteName + "/user");
     } else {
       setIncorrectLogin(true);
     }

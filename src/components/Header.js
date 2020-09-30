@@ -29,6 +29,9 @@ export class Header extends Component {
     const buttonClass = this.props.loginStatus ? null : "btn-last";
     let burgerClassName = this.state.burgerClicked ? "burger-menu-clicked" : null;
 
+    const websiteName = "/react-login-register";
+    // const websiteName = "";
+
     return (
       <div className="header">
         <div className="navbar">
@@ -38,38 +41,38 @@ export class Header extends Component {
           <div className="menu-buttons">
             <Link
               className="btn btn-login"
-              to="/react-login-register/"
+              to={websiteName + "/"}
               style={{ display: this.props.loginStatus ? "none" : "flex" }}
             >
               Login
             </Link>
             <Link
               className="btn btn-register"
-              to="/react-login-register/register"
+              to={websiteName + "/register"}
               style={{ display: this.props.loginStatus ? "none" : "flex" }}
             >
               Register
             </Link>
             <Link
               className="btn btn-user"
-              to="/react-login-register/user"
+              to={websiteName + "/user"}
               style={{ display: this.props.loginStatus ? "flex" : "none" }}
             >
               User Info
             </Link>
             <Link
               className="btn btn-user-edit"
-              to="/react-login-register/edit"
+              to={websiteName + "/edit"}
               style={{ display: this.props.loginStatus ? "flex" : "none" }}
             >
               Edit User
             </Link>
-            <Link className={"btn btn-about " + buttonClass} to="/react-login-register/about">
+            <Link className={"btn btn-about " + buttonClass} to={websiteName + "/about"}>
               About
             </Link>
             <Link
               className="btn btn-logout"
-              to="/react-login-register/"
+              to={websiteName + "/"}
               style={{ display: this.props.loginStatus ? "flex" : "none" }}
               onClick={() => this.props.isLoggedIn()}
             >
@@ -77,7 +80,6 @@ export class Header extends Component {
             </Link>
           </div>
           <div className={"burger-menu " + burgerClassName} onClick={this.handleClickBurger}>
-            {/* <div className={"burger-menu "}> */}
             <div className="line"></div>
             <div className="line"></div>
             <div className="line"></div>
@@ -93,7 +95,7 @@ export class Header extends Component {
             <Link
               className="btn btn-login"
               onClick={this.handleClickBurger}
-              to="/react-login-register/"
+              to={websiteName + "/"}
               style={{ display: this.props.loginStatus ? "none" : "flex" }}
             >
               Login
@@ -101,7 +103,7 @@ export class Header extends Component {
             <Link
               className="btn btn-register"
               onClick={this.handleClickBurger}
-              to="/react-login-register/register"
+              to={websiteName + "/register"}
               style={{ display: this.props.loginStatus ? "none" : "flex" }}
             >
               Register
@@ -109,7 +111,7 @@ export class Header extends Component {
             <Link
               className="btn btn-user"
               onClick={this.handleClickBurger}
-              to="/react-login-register/user"
+              to={websiteName + "/user"}
               style={{ display: this.props.loginStatus ? "flex" : "none" }}
             >
               User Info
@@ -117,7 +119,7 @@ export class Header extends Component {
             <Link
               className="btn btn-user-edit"
               onClick={this.handleClickBurger}
-              to="/react-login-register/edit"
+              to={websiteName + "/edit"}
               style={{ display: this.props.loginStatus ? "flex" : "none" }}
             >
               Edit User
@@ -125,14 +127,14 @@ export class Header extends Component {
             <Link
               className={"btn btn-about " + buttonClass}
               onClick={this.handleClickBurger}
-              to="/react-login-register/about"
+              to={websiteName + "/about"}
             >
               About
             </Link>
             <Link
               className="btn btn-logout"
               onClick={this.handleClickBurger}
-              to="/react-login-register/"
+              to={websiteName + "/"}
               style={{ display: this.props.loginStatus ? "flex" : "none" }}
               onClick={() => this.props.isLoggedIn()}
             >
