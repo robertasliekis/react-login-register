@@ -27,19 +27,11 @@ function Login({ users, isLoggedIn, userId, setActiveUser, loginStatus, onChange
     });
     if (userExist) {
       setIncorrectLogin(false);
-      history.push("/user");
+      history.push("/react-login-register/user");
     } else {
       setIncorrectLogin(true);
     }
   };
-
-  const emailValue = "emailas";
-
-  // function update(event) {
-  //   if (typeof onChange === "function") {
-  //     onChange(event.target.value);
-  //   }
-  // }
 
   function update(e) {
     setEmailInput(e.target.value);
@@ -52,9 +44,6 @@ function Login({ users, isLoggedIn, userId, setActiveUser, loginStatus, onChange
         <div>
           <label htmlFor="email">Email:</label>
           <input
-            // name="email"
-            // value={emailValue}
-            //value={emailInput}
             onChange={update}
             name="email"
             placeholder="Email"
