@@ -232,8 +232,8 @@ body {
 
 @media only screen and (max-width: 420px) {
   .website-wrapper {
-    height: calc(100vh - 4rem);
-    //  background: red;
+    height: calc(100vh - 8rem);
+    background: red;
   }
 
   .main-content {
@@ -262,6 +262,7 @@ body {
   .sidebar {
     position: fixed;
     @include dislayFlex();
+    display: none;
     top: 4rem;
     width: 100%;
     height: calc(100vh - 4rem);
