@@ -370,10 +370,9 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    display: none;
     top: 4rem;
     width: 100%;
-    height: calc(100vh - 4rem);
+    height: calc(100vh - 4rem - 56px);
     -webkit-transition: 0.5s all ease;
     transition: 0.5s all ease;
     z-index: 1;

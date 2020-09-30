@@ -18,7 +18,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 class App extends React.Component {
   render() {
     const websiteName = "/react-login-register";
-    //const websiteName = "";
+    // const websiteName = "";
     return (
       <Router>
         <div className="App">

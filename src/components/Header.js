@@ -29,8 +29,8 @@ export class Header extends Component {
     const buttonClass = this.props.loginStatus ? null : "btn-last";
     let burgerClassName = this.state.burgerClicked ? "burger-menu-clicked" : null;
 
-    const websiteName = "/react-login-register";
-    // const websiteName = "";
+    //const websiteName = "/react-login-register";
+    const websiteName = "";
 
     return (
       <div className="header">

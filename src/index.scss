@@ -274,10 +274,9 @@ body {
   .sidebar {
     position: fixed;
     @include dislayFlex();
-    display: none;
     top: 4rem;
     width: 100%;
-    height: calc(100vh - 4rem);
+    height: calc(100vh - 4rem - 56px);
     transition: 0.5s all ease;
     z-index: 1;
     background: var(--fillColor1);
