@@ -323,8 +323,17 @@ body {
 }
 
 @media only screen and (max-width: 420px) {
+  body {
+    height: calc(100vh - 4rem - 56px);
+  }
+  #root {
+    height: 100%;
+  }
+  #root .App {
+    height: 100%;
+  }
   .website-wrapper {
-    height: calc(100vh - 8rem);
+    height: 100%;
     background: red;
   }
   .main-content {
